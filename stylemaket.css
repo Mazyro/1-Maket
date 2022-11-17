@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: color 1s ;
+    transition: background-color 1s ;
+}
+.Playfair {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px; 
+    color: #7D7D7D;
+}
+.header_links {
+    width: 573px;
+    height: 19px;
+    list-style: none;
+    margin: 71px auto 0; 
+}
+.header_link {
+    display: inline-block;
+    color: #7D7D7D;
+}
+.header_link:hover {
+    color: #03A9F4;
+}
+.header_link:not(:last-child){
+    margin-right: 100px;
+}
+.card {
+    width: 420px;
+    height: 546px;
+    display: inline-block                    
+}
+.title {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B4AD9E;
+    margin-top: 62px;
+}
+.heading {
+    margin-top: 32px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.text {
+    margin-top: 40px;
+}
+main {
+    padding-top: 92px;
+}
+.main-card {
+    margin: 0 auto;
+    height: 546px;
+    width: 906px;
+}
+.card:last-child{
+    margin-left: 60px;           
+}
+.main-card:not(:last-child) {
+    margin-bottom: 130px;
+}
+.button {
+    width: 165px;
+    height: 60px;
+    margin: auto;
+    margin-bottom: 66px;
+    border: 1px solid #626262;
+}
+.button p {
+    padding: 20px 47px;
+}
